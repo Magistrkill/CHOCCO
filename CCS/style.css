@@ -1,6 +1,38 @@
-body{
-    background-color: blueviolet;
+body {
+    margin: 0;
+    font-family: 'Marck Script', cursive;
+    font-size: 18px;
+    color: #333;
 }
-.page1{
-    background-color: aqua;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/Intro.jpg) center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+.header-phone {
+    background: url(../images/header-phone.png) no-repeat;
+    font-size: 20px;
+}
+.logo_holder {
+    background-image: url(../images/CHOCCO logo.png) no-reapeat;
+    padding: 24px;
+}
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
 }
