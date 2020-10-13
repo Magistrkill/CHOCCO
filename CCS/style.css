@@ -4,6 +4,14 @@ body {
     font-size: 18px;
     color: #333;
 }
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -26,13 +34,4 @@ h1, h2, h3, h4, h5, h6 {
 .logo_holder {
     background-image: url(../images/CHOCCO logo.png) no-reapeat;
     padding: 24px;
-}
-.header {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-
 }
